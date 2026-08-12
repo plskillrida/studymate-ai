@@ -85,6 +85,16 @@ npm install
 
 ```
 
+### Environment Variables
+
+Create a `.env.local` file in the project root with the following variables:
+
+- `NEXT_PUBLIC_SUPABASE_URL` — your Supabase project URL
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` — your Supabase anonymous key
+- `OPENAI_API_KEY` — your OpenAI API key for AI features
+
+You will need a [Supabase](https://supabase.com) project and an [OpenAI](https://platform.openai.com) API key to obtain these values.
+
 Start the development server:
 
 ```bash
